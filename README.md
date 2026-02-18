@@ -1,3 +1,5 @@
+![Dashboard Preview](dashboard-preview.png)
+
 # Spotify Audio Feature Analysis Dashboard
 An interactive Streamlit dashboard exploring tempo, energy, danceability,
 and emotional tone across Spotify tracks.
