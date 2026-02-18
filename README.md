@@ -1,4 +1,5 @@
-![Dashboard Preview](dashboard-preview.png)
+[![Dashboard Preview](dashboard-preview.png)](https://spotify-audio-dashboard.streamlit.app/)
+
 
 # Spotify Audio Feature Analysis Dashboard
 An interactive Streamlit dashboard exploring tempo, energy, danceability,
