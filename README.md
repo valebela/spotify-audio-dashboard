@@ -1,33 +1,45 @@
+# Spotify Audio Features Dashboard
+
 [![Dashboard Preview](dashboard-preview.png)](https://spotify-audio-dashboard.streamlit.app/)
 
+An interactive **Streamlit** dashboard exploring Spotify tracks' audio features, including tempo, energy, danceability, and valence (emotional tone). 
 
-# Spotify Audio Feature Analysis Dashboard
-An interactive Streamlit dashboard exploring tempo, energy, danceability,
-and emotional tone across Spotify tracks.
+Use the sidebar to filter by **genre** and **artist** to uncover patterns in musical styles and structure.
 
-## Overview
-This project analyzes Spotify audio feature data to identify structural
-patterns in modern music. Users can filter by genre and artist to explore
-how musical characteristics vary across styles.
+---
 
-## Tools I Used
+## 🎯 Dashboard Purpose
 
-- Python
-- Pandas
-- Streamlit
-- Matplotlib
+This project analyzes how musical characteristics vary across tracks:
 
-## Data Source
+- **Tempo:** Shows typical speed ranges and outliers.  
+- **Energy vs Danceability:** Dense clusters reveal popular combinations in modern music.  
+- **Valence:** Emotional positivity of tracks, highlighting patterns across genres.  
+- **Top Tracks:** Lists the most popular songs based on Spotify's popularity metric.
 
-Spotify Tracks Dataset (Kaggle):
-https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset/data
+By visualizing these features, the dashboard helps explain why certain songs feel energetic, danceable, or emotionally positive.
 
-## How to Run
+---
 
-Install dependencies:
+## 📊 Key Insights
 
-pip install -r requirements.txt
+- Most tracks fall into a moderate tempo range, favoring steady, danceable beats.  
+- High-energy tracks often have high danceability, while low-energy tracks rarely do.  
+- Valence tends to cluster around mid-range values, with extremely happy or sad tracks being less common.  
+- Genre filtering shows clear differences in tempo, energy, and valence across musical styles.
 
-To run the dashboard:
+---
 
-streamlit run app.py
+## 🚀 Live Demo
+
+Try the dashboard yourself here: [Live Dashboard](https://spotify-audio-dashboard.streamlit.app/)
+
+---
+
+## TOOLS USED
+
+- Python  
+- Streamlit  
+- Pandas  
+- Matplotlib  
+- Spotify Audio Features Dataset (Kaggle)
